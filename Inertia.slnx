@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Inertia.Core/Inertia.Core.csproj" />
+  <Project Path="Inertia.Core/tests/Inertia.Core.Tests/Inertia.Core.Tests.csproj" />
+  <Project Path="Inertia.React/Inertia.React.csproj" />
+  <Project Path="Inertia.React/tests/Inertia.React.Tests/Inertia.React.Tests.csproj" />
+  <Project Path="Web/Web.csproj" />
+</Solution>

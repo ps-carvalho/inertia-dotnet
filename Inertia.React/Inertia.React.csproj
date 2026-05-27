@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- Package Metadata -->
+    <PackageId>Inertia.React</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Inertia.NET Contributors</Authors>
+    <Description>React adapter for Inertia.js on ASP.NET Core</Description>
+    <PackageTags>inertia;react;spa;aspnetcore;ssr</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/yourusername/inertia-dotnet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/yourusername/inertia-dotnet</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="tests\**" />
+    <EmbeddedResource Remove="tests\**" />
+    <None Remove="tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Inertia.Core\Inertia.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="contentFiles\**\*" Pack="true" PackagePath="contentFiles\" />
+  </ItemGroup>
+
+</Project>
