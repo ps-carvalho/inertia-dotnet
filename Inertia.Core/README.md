@@ -182,5 +182,5 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 ## Support
 
 - [Documentation](https://inertiajs.com/)
-- [GitHub Issues](https://github.com/yourusername/inertia-dotnet/issues)
+- [GitHub Issues](https://github.com/ps-carvalho/Inertia.Core/issues)
 - [Discord](https://discord.gg/inertiajs)

@@ -173,4 +173,4 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 
 - [Inertia.js Documentation](https://inertiajs.com/)
 - [React Documentation](https://react.dev/)
-- [GitHub Issues](https://github.com/yourusername/inertia-dotnet/issues)
+- [GitHub Issues](https://github.com/ps-carvalho/Inertia.React/issues)
