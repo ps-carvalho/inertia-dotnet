@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <ItemGroup>
-    <ProjectReference Include="..\Inertia.Core\Inertia.Core.csproj" />
-    <ProjectReference Include="..\Inertia.React\Inertia.React.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Inertia.Core" Version="0.1.1" />
+    <PackageReference Include="Inertia.React" Version="0.1.1" />
+  </ItemGroup>
 
 </Project>
